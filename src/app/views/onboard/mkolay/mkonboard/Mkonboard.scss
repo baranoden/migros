@@ -1,0 +1,70 @@
+.mkonboard {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 600px;
+  .mkonboard-texts {
+    text-align: center;
+    padding: 0 2rem 0 2rem;
+    letter-spacing: 0.5px;
+    p:first-child {
+      font-weight: bold;
+      font-size: 19px;
+    }
+    p:nth-child(even) {
+      padding-top: 1rem;
+      font-size: 15px;
+      font-family: "Gilroy-Regular";
+    }
+    p:last-child {
+      padding-top: 2rem;
+      font-family: "Gilroy-Regular";
+    }
+  }
+  .mkonboard-routes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    button {
+      margin-bottom: 0.7rem;
+      width: 225px;
+      height: 40px;
+      border: none;
+      color: white;
+      background-color: #65bab0;
+      border-radius: 5px;
+      font-family: "CeraPro-Light";
+    }
+  }
+  .mkonboard-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    svg {
+      font-family: "CeraPro-Bold";
+    }
+
+    button {
+      cursor: pointer;
+      margin: 0.5rem;
+      width: 85px;
+      height: 85px;
+      padding: 1rem;
+      border-radius: 5px;
+      border: #997f7f24 solid 1px;
+      background-color: white;
+      box-shadow: rgba(149, 154, 158, 0.3) 0px 0px,
+        rgba(137, 143, 148, 0.15) 0px 1px;
+
+      img {
+        width: 50px;
+        height: auto;
+        font-family: "CeraPro-Medium";
+      }
+    }
+  }
+}

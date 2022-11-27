@@ -1,0 +1,25 @@
+.mkaboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 600px;
+  .mkaboutus-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin-bottom: 10rem;
+    p:first-child {
+      font-family: "CeraPro-Bold";
+      font-size: 20px;
+      margin-bottom: 1rem;
+    }
+    p:last-child {
+      font-family: "CeraPro-Light";
+      font-size: 15px;
+    }
+  }
+}

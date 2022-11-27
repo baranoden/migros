@@ -1,0 +1,26 @@
+.mkqrcode {
+  min-height: 600px;
+  max-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .mkqrcode-texts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 0 3rem 0 3rem;
+    margin-bottom: 5rem;
+    p:first-child {
+      font-size: 20px;
+      font-weight: 900;
+    }
+    p:last-child {
+      margin-top: 1rem;
+      font-family: "CeraPro-Light";
+    }
+  }
+}

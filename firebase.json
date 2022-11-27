@@ -1,0 +1,15 @@
+{
+  "hosting": {
+    "site": "hyades",
+    "public": "build"
+  },
+  "rewrites": [
+    {
+      "source": "**",
+      "destination": "/index.html"
+    }
+  ],
+  "database": {
+    "rules": "database.rules.json"
+  }
+}
